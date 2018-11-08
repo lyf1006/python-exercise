@@ -15,6 +15,7 @@ class User():
     
     def greet_user(self):
         print('Hello, welcome to this new world!!!')
+        
 
 userone = User('Xiaoming', 'Li', 'male', 'Nanjing', '1996-11-10')
 usertwo = User('Feier', 'Tian', 'female', 'Chengdu', '1997-06-12')
