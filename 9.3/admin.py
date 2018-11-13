@@ -1,4 +1,4 @@
-from privileges import Privileges
+import privileges 
 class User():
     def __init__(self, first_name, last_name):
         self.first_name = first_name
@@ -17,10 +17,11 @@ class User():
 class Admin(User):
     def __init__(self, first_name, last_name):
         super().__init__(first_name, last_name)
-        # self.privileges = ['can add post', 'can delete post', 'can ban user']
-        self.privilege = Privileges()
+        """使用文件名使用Privileges类"""
+        self.privilege = privileges.Privileges()
 
-    #此方法移入Privileges类中，在init方法中创建一个Privileges实例，调用show_privileges方法
+    """此方法移入Privileges类中，在init方法中创建一个Privileges实例，
+    调用show_privileges方法"""
     # def show_privileges(self):
     #     print('Privileges are: ')
     #     for privilege in self.privileges:
