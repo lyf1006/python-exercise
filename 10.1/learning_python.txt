@@ -1,0 +1,3 @@
+In Python you can learn how to say Hello world!
+In Python you can learn how to define a function.
+In Python you can learn how to share your mood.
