@@ -1,6 +1,6 @@
 import unittest
 from city_functions import city_country
-#??unittest?TestCase
+#继承unittest下的TestCase
 class CityTestCase(unittest.TestCase):
     def test_city_country(self):
         citCountry = city_country("Beijing", "China")
